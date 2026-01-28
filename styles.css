@@ -283,6 +283,13 @@ nav {
     margin-left: 1.6rem;
 }
 
+.skill-author {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    margin-left: 1.6rem;
+    opacity: 0.6;
+}
+
 .skills-right {
     flex: 1;
 }
@@ -333,6 +340,10 @@ nav {
     font-weight: 300;
     line-height: 1.2;
     margin-bottom: 3rem;
+}
+
+.italic {
+    font-style: italic;
 }
 
 .blog-posts {
