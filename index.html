@@ -3,61 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alauda AI - Your AI Solution</title>
+    <title>Alauda Labs - The Capability Layer for AI Agents</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <canvas id="stars"></canvas>
+    
     <header>
         <nav>
-            <div class="logo">Alauda AI</div>
+            <div class="logo">
+                <span class="logo-icon">✦</span> Alauda Labs
+            </div>
             <ul class="nav-links">
-                <li><a href="#features">Features</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#docs">Docs</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#waitlist" class="btn-waitlist">Join Waitlist</a></li>
+                <li><button class="theme-toggle">☾</button></li>
             </ul>
         </nav>
     </header>
 
     <section class="hero">
-        <h1>Welcome to Alauda AI</h1>
-        <p>Transforming the future with intelligent solutions</p>
-        <button class="cta-button">Get Started</button>
-    </section>
-
-    <section id="features" class="features">
-        <h2>Features</h2>
-        <div class="feature-grid">
-            <div class="feature-card">
-                <h3>Smart Analytics</h3>
-                <p>Advanced AI-powered insights for your business</p>
+        <div class="hero-content">
+            <h1>The Capability Layer<br>for AI Agents</h1>
+            <p class="hero-subtitle">The open network unlocking new powers for AI agents.<br>
+                <span class="highlight">Discover</span>, <span class="highlight">invoke</span>, 
+                <span class="highlight">pay</span>, and <span class="highlight">trust</span>—seamlessly.
+            </p>
+            <div class="cta-buttons">
+                <button class="btn-primary">Join Waitlist</button>
+                <button class="btn-secondary">Read the Docs</button>
             </div>
-            <div class="feature-card">
-                <h3>Automation</h3>
-                <p>Streamline workflows with intelligent automation</p>
-            </div>
-            <div class="feature-card">
-                <h3>Integration</h3>
-                <p>Seamlessly connect with your existing tools</p>
+        </div>
+        <div class="hero-visual">
+            <div class="network-graph">
+                <div class="node node-1"></div>
+                <div class="node node-2"></div>
+                <div class="node node-3"></div>
+                <div class="node node-4"></div>
+                <div class="node node-5"></div>
+                <div class="node node-6"></div>
+                <div class="node node-7"></div>
+                <div class="node node-8"></div>
             </div>
         </div>
     </section>
 
-    <section id="about" class="about">
-        <h2>About Alauda AI</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <section class="skills-section">
+        <div class="skills-left">
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-bullet">●</span>
+                    <span class="skill-name">astro-pipeline-tools</span>
+                </div>
+                <div class="skill-meta">Data & AI • ⭐ 12.2k</div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-bullet">●</span>
+                    <span class="skill-name">content-generator</span>
+                </div>
+                <div class="skill-meta">Content & Media • ⭐ 45.8k</div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-bullet pink">●</span>
+                    <span class="skill-name">code-security-auditor</span>
+                </div>
+                <div class="skill-meta">Security • ⭐ 8.3k</div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-bullet">●</span>
+                    <span class="skill-name">scheduler-agent</span>
+                </div>
+                <div class="skill-meta">Productivity • ⭐ 23.1k</div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-header">
+                    <span class="skill-bullet">●</span>
+                    <span class="skill-name">knowledge-base</span>
+                </div>
+                <div class="skill-meta">Data & AI • ⭐ 7.7k</div>
+            </div>
+        </div>
+        <div class="skills-right">
+            <div class="section-label">DISCOVER</div>
+            <h2>Skills discovered<br><em>in real-time</em></h2>
+            <p>Watch as agents discover new capabilities across the network. 580+ community-built skills, always growing.</p>
+            <div class="skill-count">586 skills indexed</div>
+            <button class="btn-primary">Explore Marketplace →</button>
+        </div>
     </section>
 
-    <section id="contact" class="contact">
-        <h2>Get in Touch</h2>
-        <form>
-            <input type="email" placeholder="Your email" required>
-            <textarea placeholder="Your message" rows="4" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+    <section id="blog" class="announcements">
+        <div class="section-label">LATEST</div>
+        <h2>Announcements<br>of Alauda</h2>
+        
+        <div class="blog-posts">
+            <article class="blog-card">
+                <div class="blog-image" style="background: linear-gradient(135deg, #4a5568, #2d3748);">
+                    <div class="blog-placeholder">🔗</div>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-date">December 15, 2024</div>
+                    <h3>The Capability Layer for AI Agents</h3>
+                    <p>Introducing Alauda Network: permissionless capability infrastructure for autonomous agents.</p>
+                </div>
+            </article>
+            
+            <article class="blog-card">
+                <div class="blog-image" style="background: linear-gradient(135deg, #ed8936, #dd6b20);">
+                    <div class="blog-placeholder">🛠️</div>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-date">December 09, 2024</div>
+                    <h3>Skills, Not Just Tools: Rethinking Agent Capabilities</h3>
+                    <p>The difference between giving agents access and giving them abilities.</p>
+                </div>
+            </article>
+            
+            <article class="blog-card">
+                <div class="blog-image" style="background: linear-gradient(135deg, #4299e1, #3182ce);">
+                    <div class="blog-placeholder">📦</div>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-date">December 08, 2024</div>
+                    <h3>Portable and Reliable: The Future of Agent Skills</h3>
+                    <p>Why standardized capabilities are essential for agents that work everywhere.</p>
+                </div>
+            </article>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 Alauda AI. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-left">
+                <span>Alauda Network Protocol</span>
+            </div>
+            <div class="footer-right">
+                <a href="#">Whitepaper</a>
+                <a href="#">API Docs</a>
+                <a href="#">Discord</a>
+            </div>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
